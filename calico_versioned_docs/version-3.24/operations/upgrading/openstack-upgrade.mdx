@@ -106,7 +106,7 @@ This may result in unexpected behavior and data.
 1. On all nodes, change the location of the {{prodname}} packages to point to the {{version}} repo:
 
    ```
-   sudo bash -c 'cat > /etc/apt/sources.list.d/project-calico-calico-X_X-trusty.list' << EOF
+   sudo bash -c 'cat > /etc/apt/sources.list.d/project-calico-calico-X_X-trusty.list' <<EOF
    deb http://ppa.launchpad.net/project-calico/calico-X.X/ubuntu trusty main
    # deb-src http://ppa.launchpad.net/project-calico/calico-X.X/ubuntu trusty main
    EOF
